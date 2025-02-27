@@ -8,6 +8,9 @@ const UsersSchema = new mongoose.Schema({
     type: String,
     required: false,
   },
+  bio: {
+    type: String,
+  },
   frequency: {
     type: String,
     required: false,
